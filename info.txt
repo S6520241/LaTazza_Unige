@@ -1,0 +1,12 @@
+Progetto a cura di Francesco Giuseppino 6520241
+
+Ho rimosso i file gradlew.txt e gradlew.bat per problemi di restrizione di Gmail nell'invio dello zip.
+
+Build:
+	./gradlew build          
+
+Esecuzione dell'applicazione:
+	./gradlew run             
+
+Esecuzione dei test JUnit:
+	./gradlew test             

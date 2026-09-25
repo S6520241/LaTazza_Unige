@@ -1,0 +1,151 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+app,application.controller,Controller,init,Magic Number
+app,application.controller,Controller,registraVendita,Complex Conditional
+app,application.controller,Controller,registraVendita,Long Statement
+app,application.controller,Controller,registraVendita,Magic Number
+app,application.controller,Controller,registraPagamento,Magic Number
+app,application.controller,Controller,registraRifornimento,Long Statement
+app,application.controller,Controller,registraRifornimento,Magic Number
+app,application.controller,Controller,registraRifornimento,Magic Number
+app,application,Main,start,Magic Number
+app,application,Main,start,Magic Number
+app,application,Main,start,Magic Number
+app,application,Main,start,Magic Number
+app,application.model,Cassa,load,Empty catch clause
+app,application.model,Cassa,load,Magic Number
+app,application.model,Cassa,toString,Magic Number
+app,application.model.rifornimenti,Magazzino,load,Empty catch clause
+app,application.model.rifornimenti,Magazzino,aggiungiRifornimento,Magic Number
+app,application.model.rifornimenti,Rifornimenti,load,Empty catch clause
+app,application.model.rifornimenti,Rifornimenti,load,Long Statement
+app,application.model.rifornimenti,Rifornimenti,load,Magic Number
+app,application.model.rifornimenti,Rifornimenti,print,Long Statement
+app,application.model.utenti,Personale,load,Complex Method
+app,application.model.utenti,Personale,load,Empty catch clause
+app,application.model.utenti,Personale,load,Long Statement
+app,application.model.utenti,Personale,load,Magic Number
+app,application.model.utenti,Personale,print,Long Statement
+app,application.model.vendite,Vendita,Vendita,Long Parameter List
+app,application.model.vendite,Vendite,load,Empty catch clause
+app,application.model.vendite,Vendite,load,Long Statement
+app,application.model.vendite,Vendite,load,Magic Number
+app,application.model.vendite,Vendite,load,Magic Number
+app,application.model.vendite,Vendite,load,Magic Number
+app,application.model.vendite,Vendite,addVendita,Long Parameter List
+app,application.model.vendite,Vendite,print,Long Statement
+app,application.persistence,CassaDAOImpl,caricaCassa,Long Statement
+app,application.persistence,CassaDAOImpl,caricaCassa,Magic Number
+app,application.persistence,MagazzinoDAOImpl,caricaMagazzino,Long Statement
+app,application.persistence,MagazzinoDAOImpl,aggiornaQuantita,Magic Number
+app,application.persistence,PagamentoDebitoDAOImpl,createTableIfNeeded,Long Statement
+app,application.persistence,PagamentoDebitoDAOImpl,caricaPagamenti,Long Statement
+app,application.persistence,PagamentoDebitoDAOImpl,salvaPagamento,Magic Number
+app,application.persistence,PagamentoDebitoDAOImpl,salvaPagamento,Magic Number
+app,application.persistence,PersonaleDAOImpl,caricaPersonale,Long Statement
+app,application.persistence,PersonaleDAOImpl,salvaPersona,Magic Number
+app,application.persistence,PersonaleDAOImpl,aggiornaDebito,Magic Number
+app,application.persistence,RifornimentoDAOImpl,createTableIfNeeded,Long Statement
+app,application.persistence,RifornimentoDAOImpl,caricaRifornimenti,Long Statement
+app,application.persistence,RifornimentoDAOImpl,salvaRifornimento,Magic Number
+app,application.persistence,RifornimentoDAOImpl,salvaRifornimento,Magic Number
+app,application.persistence,VenditaDAOImpl,createTableIfNeeded,Long Statement
+app,application.persistence,VenditaDAOImpl,caricaVendite,Long Statement
+app,application.persistence,VenditaDAOImpl,salvaVendita,Magic Number
+app,application.persistence,VenditaDAOImpl,salvaVendita,Magic Number
+app,application.persistence,VenditaDAOImpl,salvaVendita,Magic Number
+app,application.persistence,VenditaDAOImpl,salvaVendita,Magic Number
+app,application.utils,Euro,Euro,Magic Number
+app,application.utils,Euro,Euro,Magic Number
+app,application.utils,Euro,Euro,Magic Number
+app,application.utils,Euro,toString,Magic Number
+app,application.utils,Utils,checkDisponibilitaCialde,Long Parameter List
+app,application.utils,Utils,createVenditeHBox,Magic Number
+app,application.utils,Utils,createVenditeHBox,Magic Number
+app,application.utils,Utils,createVenditeHBox,Magic Number
+app,application.utils,Utils,createVenditeHBox,Magic Number
+app,application.utils,Utils,createVenditeHBox,Magic Number
+app,application.utils,Utils,createDebitiHBox,Magic Number
+app,application.utils,Utils,createDebitiHBox,Magic Number
+app,application.utils,Utils,createRifornimentiHBox,Magic Number
+app,application.utils,Utils,createRifornimentiHBox,Magic Number
+app,application.utils,Utils,createRifornimentiHBox,Magic Number
+app,application.utils,Utils,createPagamentoDebitoHBox,Magic Number
+app,application.utils,Utils,createPagamentoDebitoHBox,Magic Number
+app,application.utils,Utils,createPagamentoDebitoHBox,Magic Number
+app,application.utils,Utils,checkPersonToSell,Long Parameter List
+app,test,TestCassa,testEffettuaPagamentoSuperiore,Magic Number
+app,test,TestCassa,testEffettuaPagamento,Magic Number
+app,test,TestCassa,testEffettuaPagamento,Magic Number
+app,test,TestCassa,testLoad,Empty catch clause
+app,test,TestCassa,testLoadFileNotExists,Magic Number
+app,test,TestCassa,testLoadFileWithNoCassa,Magic Number
+app,test,TestEuro,setUp,Magic Number
+app,test,TestEuro,setUp,Magic Number
+app,test,TestEuro,testEuroLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroNegativoLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroNegativoLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroNegativoLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroNegativoLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroNegativoLongLongAndGetValore,Magic Number
+app,test,TestEuro,testEuroDoubleAndGetValore,Magic Number
+app,test,TestEuro,testEuroDoubleAndGetValore,Magic Number
+app,test,TestEuro,testSomma,Magic Number
+app,test,TestEuro,testSottrai,Magic Number
+app,test,TestEuro,testUgualeAvero,Magic Number
+app,test,TestEuro,testEquals,Magic Number
+app,test,TestMagazzino,testAggiungiRifornimento,Magic Number
+app,test,TestMagazzino,testRimuoviCialde,Magic Number
+app,test,TestMagazzino,testRimuoviCialde,Magic Number
+app,test,TestMagazzino,testRimuoviCialdeNeg,Magic Number
+app,test,TestMagazzino,testGetRifornimentiSize,Magic Number
+app,test,TestMagazzino,testLoad,Empty catch clause
+app,test,TestMagazzino,testLoad,Magic Number
+app,test,TestPagamentoDebito,setUp,Magic Number
+app,test,TestPagamentoDebito,setUp,Magic Number
+app,test,TestPagamentoDebito,testPagamentoDebitoFuturo,Empty catch clause
+app,test,TestPagamentoDebito,testPagamentoDebitoFuturo,Magic Number
+app,test,TestPagamentoDebito,testPagamentoDebitoFuturo,Magic Number
+app,test,TestPagamentoDebito,testGetAmmontare,Magic Number
+app,test,TestPagamentoDebito,testGetAmmontare,Magic Number
+app,test,TestPersona,setUp,Magic Number
+app,test,TestPersona,testPersonaStringEuroNeg,Magic Number
+app,test,TestPersona,testPersonaStringEuroNeg,Magic Number
+app,test,TestPersona,testAumentaDebitoPos,Magic Number
+app,test,TestPersona,testAumentaDebitoNeg,Magic Number
+app,test,TestPersona,testDiminuisciDebitoPos,Magic Number
+app,test,TestPersona,testDiminuisciDebitoNeg,Magic Number
+app,test,TestPersonale,testGetPersonale,Magic Number
+app,test,TestPersonale,testGetIndebitatiSize,Magic Number
+app,test,TestPersonale,testGetIndebitatiSize,Magic Number
+app,test,TestPersonale,testGetIndebitatiDebito,Magic Number
+app,test,TestPersonale,testGetIndebitatiDebito,Magic Number
+app,test,TestPersonale,testRemovePersonaFalse,Magic Number
+app,test,TestPersonale,testDiminuisciDebitoTrue,Magic Number
+app,test,TestPersonale,testDiminuisciDebitoTrue,Magic Number
+app,test,TestPersonale,testDiminuisciDebitoTrue,Magic Number
+app,test,TestPersonale,testDiminuisciDebitoFalseAmmontareMaggioreDebito,Magic Number
+app,test,TestPersonale,testDiminuisciDebitoFalseAmmontareMaggioreDebito,Magic Number
+app,test,TestPersonale,testDiminuisciDebito,Magic Number
+app,test,TestPersonale,testDiminuisciDebito,Magic Number
+app,test,TestPersonale,testDiminuisciDebito,Magic Number
+app,test,TestPersonale,testDiminuisciDebitoSize,Magic Number
+app,test,TestPersonale,testDiminuisciDebitoSize,Magic Number
+app,test,TestPersonale,testLoad,Empty catch clause
+app,test,TestPersonale,testLoad,Magic Number
+app,test,TestPersonale,testLoad,Magic Number
+app,test,TestRifornimenti,testLoad,Empty catch clause
+app,test,TestVendita,setUp,Magic Number
+app,test,TestVendita,setUp,Magic Number
+app,test,TestVendita,TestGetQuantita,Magic Number
+app,test,TestVendita,TestGetQuantita,Magic Number
+app,test,TestVendite,setUp,Magic Number
+app,test,TestVendite,setUp,Magic Number
+app,test,TestVendite,setUp,Magic Number
+app,test,TestVendite,testLoad,Empty catch clause
+app,test,TestVendite,TestAddVenditaSize,Magic Number
+app,test,TestVendite,TestAddVenditaByGetCliente,Magic Number
+app,test,TestVendite,testPrint,Magic Number

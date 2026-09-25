@@ -1,0 +1,27 @@
+Project Name,Package Name,Type Name,Code Smell
+app,application,Main,Unutilized Abstraction
+app,application.model.utenti,Persona,Deficient Encapsulation
+app,application.model.utenti,Visitatore,Broken Hierarchy
+app,application.persistence,CassaDAO,Unutilized Abstraction
+app,application.persistence,CassaDAOImpl,Unutilized Abstraction
+app,application.persistence,MagazzinoDAO,Unutilized Abstraction
+app,application.persistence,MagazzinoDAOImpl,Unutilized Abstraction
+app,application.persistence,PagamentoDebitoDAO,Unutilized Abstraction
+app,application.persistence,PagamentoDebitoDAOImpl,Unutilized Abstraction
+app,application.persistence,PersonaleDAO,Unutilized Abstraction
+app,application.persistence,PersonaleDAOImpl,Unutilized Abstraction
+app,application.persistence,RifornimentoDAO,Unutilized Abstraction
+app,application.persistence,RifornimentoDAOImpl,Unutilized Abstraction
+app,application.persistence,VenditaDAO,Unutilized Abstraction
+app,application.persistence,VenditaDAOImpl,Unutilized Abstraction
+app,test,TestCassa,Unutilized Abstraction
+app,test,TestEuro,Unutilized Abstraction
+app,test,TestMagazzino,Unutilized Abstraction
+app,test,TestPagamentoDebito,Unutilized Abstraction
+app,test,TestPersona,Unutilized Abstraction
+app,test,TestPersonale,Unutilized Abstraction
+app,test,TestRifornimenti,Unutilized Abstraction
+app,test,TestRifornimento,Unutilized Abstraction
+app,test,TestVendita,Unutilized Abstraction
+app,test,TestVendite,Unutilized Abstraction
+app,test,TestVisitatore,Unutilized Abstraction
